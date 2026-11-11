@@ -8,6 +8,15 @@ This project isn't a bootloader written from scratch. It takes GRUB as its found
 
 The idea is simple: your bootloader doesn't have to look like something nobody has touched since 2005.
 
+## Previews:-
+**GRUB Interface** <br/>
+
+![GRUB interface](GRUB_interface_compressed.gif)
+
+**GRUB Terminal** <br/>
+
+![GRUB terminal](GRUB_terminal_compressed.gif)
+
 ---
 
 ## What's inside?
