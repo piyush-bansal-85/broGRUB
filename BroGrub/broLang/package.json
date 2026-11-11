@@ -1,0 +1,26 @@
+{
+  "name": "bro",
+  "displayName": "Bro Lang",
+  "description": "well, it is the extension which I generally made for broGrub nothing more.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.140.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "bro",
+      "aliases": ["Bro Lang", "bro"],
+      "extensions": [".bro"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "bro",
+      "scopeName": "source.bro",
+      "path": "./syntaxes/bro.tmLanguage.json"
+    }]
+  },
+  "main": "./extension.js"
+}

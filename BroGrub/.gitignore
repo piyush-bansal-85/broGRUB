@@ -1,0 +1,72 @@
+
+# =========================
+# Build output
+# =========================
+build/
+
+# Generated EFI test images
+/bro-efi.img
+/bro-efi-vars.fd
+
+# Generated GRUB files
+*.o
+*.a
+*.so
+*.mod
+*.module
+*.marker
+*.efi
+*.EFI
+
+# Generated test output (if applicable)
+# /output.txt
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+
+# =========================
+# Build and configuration
+# =========================
+autom4te.cache/
+config.log
+config.status
+config.cache
+Makefile
+Makefile.in~
+*.log
+
+# =========================
+# Temporary files
+# =========================
+*.tmp
+*.temp
+*.bak
+*~
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+# IDE / editor
+# =========================
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# =========================
+# Local environment
+# =========================
+.env
+.env.*
+!.env.example
+.venv/
+venv/

@@ -1,0 +1,59 @@
+.
+├── BroGRUB-fonts.tar
+├── brogrub-modules
+│   ├── bg_change.mod
+│   ├── bro_test.mod
+│   └── carousel.mod
+├── broLang
+│   ├── CHANGELOG.md
+│   ├── data
+│   │   └── osInfo.js
+│   ├── extension.js
+│   ├── language-configuration.json
+│   ├── package.json
+│   ├── README.md
+│   ├── syntaxes
+│   │   └── bro.tmLanguage.json
+│   └── vsc-extension-quickstart.md
+├── currentStructure.txt
+├── customWorld
+│   ├── bro-themes
+│   │   ├── broBg.bro
+│   │   ├── broFg.bro
+│   │   ├── broLoadingConfig.bro
+│   │   └── carouselConfig.bro
+│   ├── icons
+│   │   ├── Arch_GRUB.png
+│   │   ├── loading-cog.png
+│   │   ├── memtest.png
+│   │   ├── others_blur.png
+│   │   ├── others.png
+│   │   ├── starfield_blur.png
+│   │   ├── starfield.png
+│   │   ├── Ubuntu_GRUB_blur.png
+│   │   ├── Ubuntu_GRUB.png
+│   │   ├── ubuntu.png
+│   │   ├── UEFI.png
+│   │   ├── Window_GRUB_blur.png
+│   │   ├── Window_GRUB.png
+│   │   └── windows.png
+│   ├── sounds
+│   │   ├── confirm click.mp3
+│   │   └── move.mp3
+│   └── theme.txt
+├── efis
+│   ├── grubx64.efi
+│   ├── mmx64.efi
+│   └── shimx64.efi
+├── grub
+├── install.sh
+├── readme.md
+├── scripts
+│   ├── install.py
+│   └── uninstall.py
+├── secure_boot
+│   ├── BroGRUB.der
+│   └── brogrub.sbat
+└── uninstall.sh
+
+13 directories, 44 files
